@@ -1,9 +1,7 @@
-# Creates pseudo distributed hadoop 2.6.0 on Ubuntu 14.04
-#
-# docker build -t sequenceiq/hadoop-ubuntu:2.6.0 .
+# Based on the sequenceiq/hadoop-docker
 
 FROM sequenceiq/pam:ubuntu-14.04
-MAINTAINER SequenceIQ
+MAINTAINER Falkonry
 
 USER root
 
