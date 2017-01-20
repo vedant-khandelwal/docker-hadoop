@@ -122,7 +122,7 @@ Mandatory configuration:
 *Docker-compose* template:
 
     namenode:
-      image: Falkonry/hadoop-namenode
+      image: falkonry/hadoop-namenode
       hostname: namenode
       container_name: namenode
       domainname: hadoop
@@ -151,7 +151,7 @@ Mandatory configuration:
 *Docker-compose* template:
 
     datanode1:
-      image: Falkonry/hadoop-datanode
+      image: falkonry/hadoop-datanode
       hostname: datanode1
       container_name: datanode1
       domainname: hadoop
@@ -174,7 +174,7 @@ Mandatory configuration:
 *Docker-compose* template:
 
     resourcemanager:
-      image: Falkonry/hadoop-resourcemanager
+      image: falkonry/hadoop-resourcemanager
       hostname: resourcemanager
       container_name: resourcemanager
       domainname: hadoop
@@ -200,7 +200,7 @@ Mandatory configuration:
 *Docker-compose* template:
 
     nodemanager1:
-      image: Falkonry/hadoop-nodemanager
+      image: falkonry/hadoop-nodemanager
       hostname: nodemanager1
       container_name: nodemanager1
       domainname: hadoop
@@ -219,7 +219,7 @@ Spark environment configured for the *hadoop* cluster.
 
 The image itself doesn't specify any command since no service are
 exposed. You are expected to specify it yourself via `docker run
-Falkonry/hadoop-spark <command>`.
+falkonry/hadoop-spark <command>`.
 
 A common approach is to keep the container alive using `tail -f
 /var/log/dmesg` as command and then connect to it via `docker exec -ti
@@ -233,7 +233,7 @@ Mandatory configuration:
 *Docker-compose* template:
 
     spark:
-      image: Falkonry/hadoop-spark
+      image: falkonry/hadoop-spark
       hostname: spark
       container_name: spark
       domainname: hadoop

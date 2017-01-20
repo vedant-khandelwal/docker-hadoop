@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t Falkonry/hadoop-namenode .
+docker build -t falkonry/hadoop-namenode .

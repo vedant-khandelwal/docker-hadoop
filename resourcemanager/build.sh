@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t Falkonry/hadoop-resourcemanager .
+docker build -t falkonry/hadoop-resourcemanager .

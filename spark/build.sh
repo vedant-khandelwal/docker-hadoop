@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t Falkonry/hadoop-spark .
+docker build -t falkonry/hadoop-spark .

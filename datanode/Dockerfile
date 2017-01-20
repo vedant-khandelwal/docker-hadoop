@@ -1,4 +1,4 @@
-FROM Falkonry/hadoop:2.6.0
+FROM falkonry/hadoop:2.6.0
 
 ENV HDFS_CONF_dfs_datanode_data_dir=file:///hadoop/dfs/data
 RUN mkdir -p /hadoop/dfs/data

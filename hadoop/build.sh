@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t Falkonry/hadoop .
+docker build -t falkonry/hadoop .

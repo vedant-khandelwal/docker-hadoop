@@ -1,4 +1,4 @@
-FROM Falkonry/hadoop:2.6.0
+FROM falkonry/hadoop:2.6.0
 
 ENV SPARK_VERSION 2.0.2
 ENV SPARK_HADOOP_PROFILE 2.6

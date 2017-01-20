@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t Falkonry/hadoop-nodemanager .
+docker build -t falkonry/hadoop-nodemanager .
