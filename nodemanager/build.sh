@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t pnpritchard/hadoop-nodemanager .
+docker build -t Falkonry/hadoop-nodemanager .

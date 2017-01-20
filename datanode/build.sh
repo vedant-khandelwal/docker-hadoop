@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t pnpritchard/hadoop-datanode .
+docker build -t Falkonry/hadoop-datanode .

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t pnpritchard/hadoop-resourcemanager .
+docker build -t Falkonry/hadoop-resourcemanager .

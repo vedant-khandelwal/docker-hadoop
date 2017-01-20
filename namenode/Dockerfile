@@ -1,4 +1,4 @@
-FROM pnpritchard/hadoop:2.6.0
+FROM Falkonry/hadoop:2.6.0
 
 ENV HDFS_CONF_dfs_namenode_name_dir=file:///hadoop/dfs/name
 RUN mkdir -p /hadoop/dfs/name

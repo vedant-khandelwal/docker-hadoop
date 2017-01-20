@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t pnpritchard/hadoop .
+docker build -t Falkonry/hadoop .
