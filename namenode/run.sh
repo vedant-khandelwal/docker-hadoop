@@ -3,7 +3,7 @@
 namedir=`echo $HDFS_CONF_dfs_namenode_name_dir | perl -pe 's#file://##'`
 if [ ! -d $namedir ]; then
   echo "Namenode name directory not found: $namedir"
-  exit 2
+  mkdir -p $namedir
 fi
 
 if [ -z "$CLUSTER_NAME" ]; then
