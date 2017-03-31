@@ -1,4 +1,4 @@
-FROM falkonry/hadoop:2.6.0
+FROM falkonry/hadoop:2.7.0
 
 
 ENV YARN_CONF_yarn_timeline___service_leveldb___timeline___store_path=/hadoop/yarn/timeline
