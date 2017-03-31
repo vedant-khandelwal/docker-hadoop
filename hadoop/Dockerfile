@@ -1,7 +1,7 @@
 FROM debian:jessie-backports
 
 RUN apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openjdk-8-jdk \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends -t jessie-backports openjdk-8-jdk \
     && rm -rf /var/lib/apt/lists/*
     
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
